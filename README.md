@@ -66,5 +66,5 @@ A mix of reasons.  Some are my own foolishness/laziness.  But doing it stepwise,
 **Why MySQL?**  
 This could easily be modified for PostgreSQL, I'm sure.  I know that's the way to go for GIS stuff, but my old habits die hard, and a plain database works fine for this scenario because I'm not actually doing any spatial joins or anything like that.  If I had experience with PostgreSQL I'd have used that instead.
 
-**What do I do now?**
-Coming soon: generalized browser-based editor for the DB for users to input/edit historical information.  Includes de-duping and merging.
+**What do I do now?**  
+Coming soon: A generalized browser-based editor for the DB for users to input/edit historical information, de-dupe and merge streets, add landmarks.
