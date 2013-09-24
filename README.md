@@ -60,8 +60,8 @@ It will prompt you for an XML filename (you can also supply the filename as a co
 Infrequently Asked Questions
 ----------------------------
 
-** Why is this so complicated? **  
+**Why is this so complicated?**  
 A mix of reasons.  Some are my own foolishness/laziness.  But doing it stepwise, outputting to lots of intermediate files along the way, makes it easier to ensure that what's supposed to happen is actually happening at each step.  This is important when you're crunching 2 GB of sometimes messy data.  Lots of weird exceptions come up.
 
-** Why MySQL? **  
+**Why MySQL?**  
 This could easily be modified for PostgreSQL, I'm sure.  I know that's the way to go for GIS stuff, but my old habits die hard, and a plain database works fine for this scenario because I'm not actually doing any spatial joins or anything like that.  If I had experience with PostgreSQL I'd have used that instead.
